@@ -1,0 +1,2 @@
+# exercise_js_elementary
+JavaScript初級演習
