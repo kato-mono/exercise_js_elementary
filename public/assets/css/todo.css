@@ -1,0 +1,52 @@
+#insert-button {
+  border: none;
+  height: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 30vw;
+}
+
+#input-section {
+  border: solid 1px #D5D5D5;
+  margin-bottom: 5vh;
+}
+
+.gray-out-child-opacity {
+  opacity: 0.5;
+}
+
+.input-group {
+  width: 70vw;
+}
+
+.linearlayout-child {
+  display: table-cell;
+}
+
+.linearlayout-horizontal {
+  display: table;
+}
+
+.table-row-element {
+  background: transparent;
+  border: none;
+  height: 100%;
+}
+
+.table-row-delete-button {
+  width: 10vw;
+}
+
+.table-row-status {
+  width: 10vw;
+}
+
+.table-row-description {
+  padding-left: 10px;
+  width: 60vw;
+}
+
+.table-row-deadline {
+  padding-left: 10px;
+  width: 20vw;
+}
