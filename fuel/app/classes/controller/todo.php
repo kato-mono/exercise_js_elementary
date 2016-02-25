@@ -7,7 +7,7 @@ class Controller_Todo extends Controller
      */
     public function action_main()
     {
-        $view = View::forge('../../../public/todo');
+        $view = View::forge('../../../public/pages/todo');
 
         return Response::forge($view);
     }
