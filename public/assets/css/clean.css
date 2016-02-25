@@ -11,9 +11,10 @@
 .columns .ui-table thead th {
     background-color: transparent;
     color: #222222;
-    padding: 10px;
     border-right: solid 1px #D5D5D5;
-    cursor: pointer
+    border-bottom: solid 1px #D5D5D5;
+    cursor: pointer;
+    text-align: center;
 }
 .columns .ui-table thead th.ui-table-sort-up,
 .columns .ui-table thead th.ui-table-sort-down {
@@ -27,19 +28,18 @@
     font-size: 10px
 }
 .columns .ui-table tbody {
-    background-color: transparent
+    background-color: transparent;
 }
 .columns .ui-table tbody tr.ui-table-rows-odd {
-    background-color: #F2F2F2
+    background: #FFFFFF
 }
 .columns .ui-table tbody tr.ui-table-rows-even {
     background: #FFFFFF
 }
 .columns .ui-table tbody tr td {
-    background: transparent;
     border-right: solid 1px #D5D5D5;
+    border-bottom: solid 1px #D5D5D5;
     color: #656565;
-    padding: 10px
 }
 .columns .ui-table-controls span {
     font-size: 12px;
@@ -63,6 +63,7 @@
     font-size: 11px;
     text-align: left;
     color: #333;
+    visibility: hidden;
 }
 .columns .ui-table-footer span {
     vertical-align: middle
@@ -99,15 +100,15 @@
     text-align: right
 }
 .columns .ui-columns-search input {
-    width: 200px;
-    border-radius: 10px;
+    width: 100vw;
+    border-radius: 14px;
     padding: 4px 10px 4px 25px;
-    border: 2px solid #ccc;
-    background-image: url(../images/search.png);
+    border: 1px solid #ccc;
+    background-image: url(../img/search.png);
     background-position: 5px center;
     background-repeat: no-repeat
 }
 .columns .ui-columns-search input:focus {
-    border: 2px solid #6196CD;
+    border: 1px solid #6196CD;
     outline: none
 }
